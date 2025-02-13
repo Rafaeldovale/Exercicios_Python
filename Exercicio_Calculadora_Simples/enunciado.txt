@@ -1,0 +1,32 @@
+Exercćio: Calculadora Simples
+
+Desenvolva uma Calculadora simples que permite ao usuário realizar opeações básicas de adição,
+subtração, multiplicação e divisão
+
+objeto:
+
+    Mostar um Menu ao Usuário:
+
+    - A Calculadora deve exibir um menu com cinco operações:
+        -adição
+        -subtração
+        -multiplicação
+        -divisão
+        -sair
+
+    O usuário deve ser capaz de selecionar a operação desejada através de uma entrada de um número
+    correspondente
+
+    Receber dois números:
+
+        -a selecionara operação, o usuário deve inserir dois numero que serão utilizados na operação
+
+    Realizar a operação Selecionada:
+
+        -A Calculadora deve realizar a operação selecionada com os números inseridos e exibir os resultados
+
+    Repetir ou Encerrar:
+
+        -Após cada operação, o menu deve ser exibido novamente, permitindo que o usuário realize outra operação
+        ou saia do programa
+        -O programa deve continuar funcionando até que o usuário escolha sair.
