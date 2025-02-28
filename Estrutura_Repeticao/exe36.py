@@ -1,23 +1,13 @@
-pesoValor = []
-alturaValor =  []
-peso = altura = 1
-c = 0
-while True:
-    codigo = int(input('Informe o código de registro: '))
-    if codigo != 0:
-        
-        
-        peso = int(input('Qual o peso: '))
-        pesoValor.append(peso)
-        
-        altura = int(input('Qual a alutra: '))
-        alturaValor.append(altura)
+def tabuada(t, n1, n2):
 
-        c += 1
-    else:
-        break
+    print(f'Vou montar a tabuada de {t} começando em {n1} e terminando em {n2}')
+    for c in range(n1, n2 + 1):
+        if n1 < n2:
+            print(f'{t} x {c} = {t * c}')
+        else: 
+            print('Você deve informar o valor inicial menor que o final')
 
-print(f'O maior peso = {max(pesoValor)} kg')
-print(f'O menor peso = {min(pesoValor)} kg')
-print(f'O maior altura = {max(alturaValor)} m')
-print(f'O menor altura = {min(alturaValor)} m')
+tab = int(input('Qual tabuada será analisada: '))
+num1 = int(input('Informe qual numero vai iniciar: '))
+num2 = int(input('Informe qual numero vai terminar: '))
+tabuada(tab, num1, num2)
