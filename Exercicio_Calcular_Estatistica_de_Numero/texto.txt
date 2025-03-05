@@ -1,0 +1,16 @@
+Exercício: Função para Calcular Estatística de números
+
+
+Objetivo: Familiarizar com a definição de funções que aceitem um número variável de argumentos usando 
+*args, bem como calcular algumas estatísticas básicas de um conjunto de número.
+
+
+Instruções:
+
+    1. Defina uma função estatística que aceite um número de variável de argumentos númericos.
+    2. A função deve retornar a média, o maior e o menor núero do conjunto.
+    3. Peça ao usuário para inserir uma sequência de números, separados por espaços.
+    4. Converta essa entrada do usuário em uma lista de números.
+    5. Use a função estatística para calcular a média, o maior e o menor número da lista.
+    6. Mostre ao usuario a média, o maior e o menor número.
+    
