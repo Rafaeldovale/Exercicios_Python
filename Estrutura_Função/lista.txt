@@ -62,3 +62,36 @@ terá um parâmetro formal para registrar se é A.M. ou P.M. Inclua um loop que 
 novos valores de entrada todas as vezes que desejar.
 
 13 - Faça uma função que informe a quantidade de dígitos de um determinado número inteiro informado.
+
+14 - Exercicio: calculadora Simples com funções
+
+    objetivo: Criar uma calculadora simples que pode realizar quatro operações básicas: adição, subtração, multiplicação e divisão.
+
+    O usuário deverá fornecer dois números e a operação desejada. A solução deve ser implementada usando funções.
+
+    Instruções:
+
+        Defina quatro funções: adicionar(), subtrair(), multiplicadr() e dividir().
+
+        - Cada função deve aceitar dois parâmetros (núemros) e retornar o resultado da operação correspondente.
+        - Peça ao usuário para inserir dois núemros.
+        - Peça ao usuário para escolhera uma das quatros operações (por exemplo, ele pode digitar "adicionar", para adição)
+        - Com base na escolha do usuário, chame a função correspondente e impria o resultado
+
+15 - Exercício: Fábrica de funções de Operações Matemáticas
+    Imagine que você estpa construindo uma calculadora. Porém, ao invés de implementar cada operação matemática(soma, subtração,
+    multiplicação e divisão) diretamente, você decide criar uma "fabrica de funções". Esta fábrica, quando fornecida com o nome de 
+    uma operação, deve retornar uma funcção que realiza a operação desejada.
+
+    Instruções:
+
+        - Escreva uma função chamada fábrica_de_operações que acreite uma string: 'soma', 'subtracao', 'multiplicação' ou divisao'.
+
+        - Dependendo do argumento fornecido, sua função deve retornar uma das operações matemáticas. Por exemplo, se o argumento for
+        'soma', a função retonada deve ser capaz de somar dois números.
+
+        - Se a operação não for reconhecida, retorne uma função que imprima "Opera não suportada"
+
+16 - Adapte a fábrica para aceitar operações com mais de dois numeros. Por exemplo, a operação de soma deve ser capaz de somar três,
+quatro ou mais números de uma só vez.
+Dica: Utilize argumentos variáveis (*args) para essa adaptação
