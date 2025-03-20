@@ -218,7 +218,7 @@ item (preço * quantidade) e o total geral do pedido. Considere que o cliente de
     º O total de votos nulos;
     º O total de votos em branco;
     º A percentagem de votos nulos sobre o total de votos;
-    ºA percentagem de votos em branco sobre o total de votos. Para finalizar o conjunto de votos tem-se o valor zero.
+    º A percentagem de votos em branco sobre o total de votos. Para finalizar o conjunto de votos tem-se o valor zero.
 
 45 - Desenvolver um programa para verificar a nota do aluno em uma prova com 10 questões, o programa deve perguntar ao aluno 
 a resposta de cada questão e ao final comparar com o gabarito da prova e assim calcular o total de acertos e a nota (atribuir 1 
